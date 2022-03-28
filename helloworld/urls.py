@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('playground/', include('playground.urls')),
+    path('self_app/', include('self_app.urls')),
     path('admin/', admin.site.urls),
 ]
